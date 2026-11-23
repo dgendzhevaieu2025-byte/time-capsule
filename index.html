@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Time Capsule — Travel Through Pop Culture</title>
+  <meta name="description" content="A nostalgic guide to the music, fashion, TV and internet of the 2000s, 2010s and 2020s.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Instrument+Serif&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-era="home">
+  <!-- Shared colours for the drawings (silver, pink phone, lenses, screen glow) -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+    <linearGradient id="g-silver" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset=".35" stop-color="#c4c8d0"/>
+      <stop offset=".5" stop-color="#f1f2f5"/><stop offset=".75" stop-color="#a6abb5"/><stop offset="1" stop-color="#e4e6ea"/>
+    </linearGradient>
+    <linearGradient id="g-pinkphone" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fbc3d8"/><stop offset="1" stop-color="#e27aa2"/></linearGradient>
+    <linearGradient id="g-lens" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7a5bb5"/><stop offset="1" stop-color="#2a1b47"/></linearGradient>
+    <linearGradient id="g-cam" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#b79fdc"/><stop offset="1" stop-color="#7a5bb5"/></linearGradient>
+    <linearGradient id="g-screen" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2f55c4"/><stop offset="1" stop-color="#cfe3f5"/></linearGradient>
+    <path id="g-spark" d="M0,-10 C1.2,-2 2,-1.2 10,0 C2,1.2 1.2,2 0,10 C-1.2,2 -2,1.2 -10,0 C-2,-1.2 -1.2,-2 0,-10Z"/>
+  </defs></svg>
+
+  <header class="topbar">
+    <a href="#home" class="logo">The Time Capsule</a>
+    <nav aria-label="Main menu">
+      <a href="#era-2000s">2000s</a>
+      <a href="#era-2010s">2010s</a>
+      <a href="#era-2020s">2020s</a>
+      <a href="#quiz">Quiz</a>
+      <a href="#sources">Sources</a>
+    </nav>
+  </header>
+
+  <!-- The content of each page is inserted here by script.js -->
+  <main id="app"></main>
+
+  <footer>
+    <p>The Time Capsule · Made by Dilara Gendzheva · Webs and Apps Design, 2026</p>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
